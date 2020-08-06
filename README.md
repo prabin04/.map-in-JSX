@@ -14,7 +14,7 @@ In the above example, we start out with an array of strings. We call .map() on t
 On the last line of the example, note that `{listItems}` will evaluate to an array, because it’s the returned value of `.map()`! JSX `<li>`s don’t have to be in an array like this, but they can be.
 
 // This is fine in JSX, not in an explicit array:
-
+```
 <ul>
   <li>item 1</li>
   <li>item 2</li>
@@ -30,3 +30,4 @@ const liArray = [
 ];
 
 <ul>{liArray}</ul>
+```
